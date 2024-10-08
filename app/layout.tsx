@@ -37,6 +37,9 @@ export default function RootLayout({
 					<li>
 						<a href="/uebernachtung">Übernachtung</a>
 					</li>
+					<li>
+						<a href="/faq">Fragen & Antworten</a>
+					</li>
 				</nav>
 				{children}
 			</body>

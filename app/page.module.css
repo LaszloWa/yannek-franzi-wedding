@@ -1,13 +1,14 @@
 .main {
 	background-image: url(./assets/landing-page-mobile.png);
-	min-height: 100vh;
+	min-height: 98vh;
 	min-width: 100vw;
 	background-repeat: no-repeat;
 	background-size: contain;
+	background-position: center;
 
-	@media (min-width: 400px) {
+	@media (min-width: 585px) {
 		background-size: contain;
 		background-position: center;
-		background-image: url(./assets/langing-page.svg);
+		background-image: url(./assets/landing-page.svg);
 	}
 }
