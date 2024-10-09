@@ -10,9 +10,8 @@ export default function Location() {
 				</p>
 				<p>
 					Schloss Hertefeld, Hertefeld 1-6, 47652 Weeze
-					<p>
-						<a href="https://www.hertefeld.de/">https://www.hertefeld.de/</a>
-					</p>
+					<br />
+					<a href="https://www.hertefeld.de/">https://www.hertefeld.de/</a>
 				</p>
 				<br />
 

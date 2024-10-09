@@ -1,10 +1,10 @@
 .main {
 	background-image: url(./assets/landing-page-mobile.png);
 	min-height: 98vh;
-	min-width: 100vw;
+	min-width: 100%;
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: center;
+	/* background-position: center; */
 
 	@media (min-width: 585px) {
 		background-size: contain;

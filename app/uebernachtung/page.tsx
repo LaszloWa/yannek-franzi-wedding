@@ -60,11 +60,10 @@ export default function Uebernachtung() {
 					stellt euch dafür ein Bad mit Dusche, WC und Handtüchern bereit. Falls
 					ihr dies umgehen wollt, ist direkt am Tierpark ein
 					Reisemobilstellplatz mit 5€ Übernachtungsgebühr
-					<p>
-						<a href="https://www.weeze.de/de/inhalt/reisemobile/">
-							https://www.weeze.de/de/inhalt/reisemobile/
-						</a>
-					</p>
+					<br />
+					<a href="https://www.weeze.de/de/inhalt/reisemobile/">
+						https://www.weeze.de/de/inhalt/reisemobile/
+					</a>
 					.
 				</p>
 			</div>

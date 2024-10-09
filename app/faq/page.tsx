@@ -3,7 +3,7 @@ import styles from "./faq.module.css";
 export default function FAQ() {
 	return (
 		<main className={styles.main}>
-			<h2 className={styles.heading}>Übernachtungsmöglichkeiten</h2>
+			<h2 className={styles.heading}>Fragen und Antworten</h2>
 			<div className={styles.body}>
 				<p>
 					<i>Müssen wir an allen Tagen teilnehmen?</i>

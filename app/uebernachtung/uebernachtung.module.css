@@ -5,7 +5,7 @@
 	min-height: 98vh;
 	min-width: 100vw;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	background-position: center;
 	padding: 30px;
 }
@@ -15,6 +15,6 @@
 }
 
 .body {
-	max-width: 500px;
+	max-width: 1000px;
 	margin: 0 auto;
 }

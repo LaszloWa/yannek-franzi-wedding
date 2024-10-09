@@ -4,7 +4,7 @@ export default function Ablauf() {
 	return (
 		<main className={styles.main}>
 			<h2 className={styles.heading}>Ablauf</h2>
-			<div>
+			<div className={styles.body}>
 				<p>
 					<b>01.08.2025</b>
 				</p>
