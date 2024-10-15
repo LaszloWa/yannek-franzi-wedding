@@ -1,14 +1,34 @@
 .main {
+	background: rgb(219, 91, 169);
+	background: linear-gradient(
+		180deg,
+		rgba(219, 91, 169, 1) 50%,
+		rgba(255, 138, 0, 1) 50%
+	);
+	min-height: 100vh;
+	min-width: 100vw;
+
+	@media (min-width: 585px) {
+		background: rgb(219, 91, 169);
+		background: linear-gradient(
+			90deg,
+			rgba(219, 91, 169, 1) 60%,
+			rgba(255, 200, 127, 1) 70%
+		);
+	}
+}
+
+.image {
 	background-image: url(./assets/landing-page-mobile.png);
 	min-height: 100vh;
-	min-width: 100%;
+	min-width: 100vw;
 	background-repeat: no-repeat;
 	background-size: contain;
-	/* background-position: center; */
 
 	@media (min-width: 585px) {
 		background-size: contain;
 		background-position: center;
 		background-image: url(./assets/landing-page.svg);
+		background-repeat: no-repeat;
 	}
 }

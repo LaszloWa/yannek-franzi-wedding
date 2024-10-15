@@ -16,30 +16,13 @@ html,
 body {
 	max-width: 1440px;
 	overflow-x: hidden;
-	margin: auto;
+	min-height: 100vh;
+	min-width: 100vw;
 }
 
 html {
-	background-image: url(./assets/background.svg);
 	min-height: 100vh;
 	min-width: 100vw;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background: rgb(219, 91, 169);
-	background: linear-gradient(
-		180deg,
-		rgba(219, 91, 169, 1) 50%,
-		rgba(255, 138, 0, 1) 50%
-	);
-
-	@media (min-width: 400px) {
-		background: rgb(219, 91, 169);
-		background: linear-gradient(
-			90deg,
-			rgba(219, 91, 169, 1) 60%,
-			rgba(255, 200, 127, 1) 70%
-		);
-	}
 }
 
 a {

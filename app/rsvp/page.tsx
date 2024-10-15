@@ -3,7 +3,13 @@ import styles from "./rsvp.module.css";
 export default function Rsvp() {
 	return (
 		<main className={styles.main}>
-			<h2>RSVP</h2>
+			<h2>Rückmeldung</h2>
+			<div>
+				Bitte gebt uns eure Rückmeldung über das untenstehende Formular bis zum
+				30.06.2025! Alternativ dürft ihr uns auch gerne telefonisch oder per
+				E-Mail kontaktieren. Es genügt, wenn ihr das Formular pro Einladung
+				ausfüllt.
+			</div>
 			<form className={styles.form} action="">
 				<div>
 					<label htmlFor="name">Name</label>
@@ -18,13 +24,21 @@ export default function Rsvp() {
 					</select>
 				</div>
 				<div>
-					<span>Möchtest du ein Hotelzimmer?</span>
+					<span>Übernachtung</span>
 					<div>
-						<label htmlFor="Ja">Ja</label>
-						<input type="radio" id="Ja" name="hotel" />
+						<label htmlFor="zweiNaechte">
+							Ja, ich/wir übernachten von Freitag bis Sonntag.
+						</label>
+						<input type="radio" id="zweiNaechte" name="hotel" />
 					</div>
 					<div>
-						<label htmlFor="Nein">Nein</label>
+						<label htmlFor="eineNacht">
+							Ja, ich/wir übernachten von Samstag bis Sonntag.
+						</label>
+						<input type="radio" id="eineNacht" name="hotel" />
+					</div>
+					<div>
+						<label htmlFor="Nein">Nein, ich/wir übernachten nicht,</label>
 						<input type="radio" id="Nein" name="hotel" />
 					</div>
 				</div>
