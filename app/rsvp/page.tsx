@@ -3,7 +3,7 @@ import styles from "./rsvp.module.css";
 export default function Rsvp() {
 	return (
 		<main className={styles.main}>
-			<h2>Rückmeldung</h2>
+			<h1>Rückmeldung</h1>
 			<div>
 				Bitte gebt uns eure Rückmeldung über das untenstehende Formular bis zum
 				30.06.2025! Alternativ dürft ihr uns auch gerne telefonisch oder per

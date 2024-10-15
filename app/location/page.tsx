@@ -3,7 +3,7 @@ import styles from "./location.module.css";
 export default function Location() {
 	return (
 		<main className={styles.main}>
-			<h2 className={styles.heading}>Location und Anreise</h2>
+			<h1 className={styles.heading}>Location und Anreise</h1>
 			<div className={styles.body}>
 				<p>
 					<b>Location:</b>

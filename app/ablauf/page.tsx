@@ -3,7 +3,7 @@ import styles from "./ablauf.module.css";
 export default function Ablauf() {
 	return (
 		<main className={styles.main}>
-			<h2 className={styles.heading}>Ablauf</h2>
+			<h1 className={styles.heading}>Ablauf</h1>
 			<div className={styles.body}>
 				<p>
 					<b>01.08.2025</b>

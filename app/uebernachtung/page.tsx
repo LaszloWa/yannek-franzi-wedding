@@ -3,7 +3,7 @@ import styles from "./uebernachtung.module.css";
 export default function Uebernachtung() {
 	return (
 		<main className={styles.main}>
-			<h2 className={styles.heading}>Übernachtungsmöglichkeiten</h2>
+			<h1 className={styles.heading}>Übernachtungsmöglichkeiten</h1>
 			<div className={styles.body}>
 				<p>
 					Wir haben mehrere Hotels rausgesucht, in denen ihr euch gerne
