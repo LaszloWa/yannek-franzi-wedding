@@ -1,9 +1,16 @@
+@font-face {
+	font-family: BeautifullyDelicious;
+	src: url(./assets/fonts/BDScript-Regular.woff2);
+}
+
+@font-face {
+	font-family: CooperHewitt;
+	src: url(./assets/fonts/CooperHewitt-Light.woff);
+}
+
 :root {
 	--max-width: 1100px;
 	--border-radius: 12px;
-	--font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
-		"Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
-		"Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 }
 
 * {
@@ -18,6 +25,17 @@ body {
 	overflow-x: hidden;
 	min-height: 100vh;
 	min-width: 100vw;
+	font-family: CooperHewitt;
+}
+
+h1,
+h2,
+h3 {
+	font-family: BeautifullyDelicious;
+}
+
+h1 {
+	font-size: 70px;
 }
 
 html {
