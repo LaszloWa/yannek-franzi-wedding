@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
 						<a href="/ablauf">Ablauf</a>
 					</li>
 					<li>
-						<a href="/rsvp">RSVP</a>
+						<a href="/rsvp">Rückmeldung</a>
 					</li>
 					<li>
 						<a href="/location">Location</a>
