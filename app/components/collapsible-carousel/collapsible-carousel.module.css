@@ -1,42 +1,7 @@
-.carousel {
-	position: relative;
-	width: 100%;
-	max-width: 600px;
-	aspect-ratio: 3 / 2; /* Adjust according to your image aspect ratio */
-	margin: 20px auto;
-	overflow: hidden;
-}
-
 .expander {
 	border-radius: 8px;
 	border: 1px solid #db5ba9;
 	color: #db5ba9;
 	background-color: #ffc87f;
 	padding: 5px;
-}
-
-.navigation {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	transform: translateY(-50%);
-}
-
-.button {
-	background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-	color: white;
-	border: none;
-	padding: 10px;
-	font-size: 24px;
-	cursor: pointer;
-}
-
-.left {
-	margin-left: 10px;
-}
-
-.right {
-	margin-right: 10px;
 }
