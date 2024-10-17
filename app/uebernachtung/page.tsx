@@ -52,7 +52,7 @@ export default function Uebernachtung() {
 					<b>bis zu 5 Personen</b>.
 				</p>
 				<br />
-				<CollapsibleCarousel photos={photos["schloss-hertfeld"]} />
+				<CollapsibleCarousel photos={photos["hertefelderHof"]} />
 				<br />
 
 				<p>
