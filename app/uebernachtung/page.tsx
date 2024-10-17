@@ -1,4 +1,31 @@
+import CollapsibleCarousel from "../components/collapsible-carousel/collapsible-carousel";
 import styles from "./uebernachtung.module.css";
+
+const photos = {
+	hertefelderHof: [
+		"/images/hertefelderhof/1.jpg",
+		"/images/hertefelderhof/2.jpg",
+		"/images/hertefelderhof/3.jpg",
+		"/images/hertefelderhof/4.jpg",
+		"/images/hertefelderhof/5.jpg",
+	],
+	jaegerhof: [
+		"/images/jaegerhof/1.jpg",
+		"/images/jaegerhof/2.jpg",
+		"/images/jaegerhof/3.jpg",
+	],
+	"schloss-hertfeld": [
+		"/images/schloss-hertefeld/1.jpg",
+		"/images/schloss-hertefeld/2.jpg",
+		"/images/schloss-hertefeld/3.jpg",
+		"/images/schloss-hertefeld/4.jpg",
+	],
+	"schloss-wissen": [
+		"/images/schloss-wissen/1.jpg",
+		"/images/schloss-wissen/2.jpg",
+		"/images/schloss-wissen/3.jpg",
+	],
+};
 
 export default function Uebernachtung() {
 	return (
@@ -25,6 +52,8 @@ export default function Uebernachtung() {
 					<b>bis zu 5 Personen</b>.
 				</p>
 				<br />
+				<CollapsibleCarousel photos={photos["schloss-hertfeld"]} />
+				<br />
 
 				<p>
 					<a href="https://schloss-wissen.de/hotel/">
@@ -38,6 +67,8 @@ export default function Uebernachtung() {
 					bietet Zimmer und Gästehäuser für <b>bis zu 8 Personen.</b>
 				</p>
 				<br />
+				<CollapsibleCarousel photos={photos["schloss-wissen"]} />
+				<br />
 
 				<p>
 					<a href="https://www.jagerhofweeze.com/">
@@ -50,6 +81,8 @@ export default function Uebernachtung() {
 					<b>45€ pro Person pro Nacht exkl. Frühstück.</b> Im Hotel sind{" "}
 					<b>Einzelzimmer</b> buchbar sowie Zimmer mit bis zu 4 Personen.
 				</p>
+				<br />
+				<CollapsibleCarousel photos={photos["jaegerhof"]} />
 				<br />
 
 				<p>Schlafen im Van</p>
