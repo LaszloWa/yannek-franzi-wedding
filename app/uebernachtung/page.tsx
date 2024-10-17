@@ -14,12 +14,6 @@ const photos = {
 		"/images/jaegerhof/2.jpg",
 		"/images/jaegerhof/3.jpg",
 	],
-	"schloss-hertfeld": [
-		"/images/schloss-hertefeld/1.jpg",
-		"/images/schloss-hertefeld/2.jpg",
-		"/images/schloss-hertefeld/3.jpg",
-		"/images/schloss-hertefeld/4.jpg",
-	],
 	"schloss-wissen": [
 		"/images/schloss-wissen/1.jpg",
 		"/images/schloss-wissen/2.jpg",

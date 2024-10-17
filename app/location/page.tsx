@@ -1,4 +1,12 @@
+import Carousel from "../components/carousel/carousel";
 import styles from "./location.module.css";
+
+const photos = [
+	"/images/schloss-hertefeld/1.jpg",
+	"/images/schloss-hertefeld/2.jpg",
+	"/images/schloss-hertefeld/3.jpg",
+	"/images/schloss-hertefeld/4.jpg",
+];
 
 export default function Location() {
 	return (
@@ -43,6 +51,7 @@ export default function Location() {
 
 				<p>Hauptsache ihr seid dabei!</p>
 			</div>
+			<Carousel photos={photos} />
 		</main>
 	);
 }
