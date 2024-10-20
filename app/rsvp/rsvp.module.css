@@ -77,3 +77,23 @@
 	grid-row: 1;
 	text-align: left;
 }
+
+.successMessage {
+	background-color: #d4edda; /* Light green background */
+	border-radius: 4px;
+	border: 1px solid #c3e6cb;
+	color: #155724; /* Dark green text */
+	margin: 30px auto 1em;
+	padding: 1em;
+	width: fit-content;
+}
+
+.errorMessage {
+	background-color: #f8d7da; /* Light red background */
+	border-radius: 4px;
+	border: 1px solid #f5c6cb;
+	color: #721c24; /* Dark red text */
+	margin: 30px auto;
+	padding: 1em;
+	width: fit-content;
+}

@@ -69,10 +69,7 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
 		console.error("Error sending email:", error);
 
 		// Redirect back with error outcome
-		const errorUrl = new URL(
-			request.headers.get("referer") || "/",
-			request.url,
-		);
+		const errorUrl = new URL("/rsvp", request.headers.get("referer") || "/");
 		errorUrl.searchParams.set("outcome", "error");
 		return NextResponse.redirect(errorUrl);
 	}
