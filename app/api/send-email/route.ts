@@ -1,5 +1,3 @@
-// app/api/send-email/route.ts
-
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 
@@ -56,7 +54,7 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
 			from: process.env.EMAIL_FROM!,
 			to: process.env.EMAIL_TO!,
 			subject: `Rückmeldung Hochzeit von ${name}`,
-			html: "Coolio",
+			html: emailContent,
 		});
 
 		// Redirect back to the form page with a success outcome
