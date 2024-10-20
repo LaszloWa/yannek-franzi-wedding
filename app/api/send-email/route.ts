@@ -12,9 +12,10 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
 		const anreiseTag = formData.get("anreiseTag") as string;
 		const hotel = formData.get("hotel") as string;
 		const kommentar = formData.get("kommentar") as string;
+		const redirectUrl = formData.get("redirectUrl") as string;
 
 		// Validate form data
-		if (!name || !anreiseTag || !hotel) {
+		if (!name || !anreiseTag || !hotel || !redirectUrl) {
 			const errorUrl = new URL(
 				request.headers.get("referer") || "/",
 				request.url,
@@ -59,11 +60,11 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
 
 		// Redirect back to the form page with a success outcome
 		const successUrl = new URL(
+			redirectUrl,
 			request.headers.get("referer") || "/",
-			request.url,
 		);
 		successUrl.searchParams.set("outcome", "success");
-		return NextResponse.redirect(successUrl);
+		return NextResponse.redirect(successUrl, 303);
 	} catch (error) {
 		console.error("Error sending email:", error);
 

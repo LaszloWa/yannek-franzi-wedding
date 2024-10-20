@@ -5,6 +5,7 @@ export default function Rsvp() {
 		<main className={styles.main}>
 			<h1>Rückmeldung</h1>
 			<form className={styles.form} action="/api/send-email" method="POST">
+				<input type="hidden" name="redirectUrl" value="/rsvp" />
 				<div className={styles.description}>
 					Bitte gebt uns eure Rückmeldung über das untenstehende Formular bis
 					zum 30.06.2025! Alternativ dürft ihr uns auch gerne telefonisch oder
