@@ -6,15 +6,17 @@ export default function Ablauf() {
 		<main className={styles.main}>
 			<h1 className={styles.heading}>Ablauf</h1>
 			<div className={styles.body}>
+				<p>
+					<b>01.08.2025</b>
+				</p>
+				<br />
+
 				<Image
 					src={"/icons/get-together.png"}
 					alt="Grafik von anstossen mit Biergläsern"
 					width={80}
 					height={80}
 				/>
-				<p>
-					<b>01.08.2025</b>
-				</p>
 				<p>
 					<b>18:00 Uhr – „Get-Together“</b>
 				</p>
@@ -28,6 +30,8 @@ export default function Ablauf() {
 				<p>
 					<b>02.08.2025</b>
 				</p>
+				<br />
+
 				<Image
 					src={"/icons/fruehstueck.png"}
 					alt="Grafik von Frühstück"
