@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "./ablauf.module.css";
 
 export default function Ablauf() {
@@ -5,6 +6,12 @@ export default function Ablauf() {
 		<main className={styles.main}>
 			<h1 className={styles.heading}>Ablauf</h1>
 			<div className={styles.body}>
+				<Image
+					src={"/icons/get-together.png"}
+					alt="Grafik von anstossen mit Biergläsern"
+					width={80}
+					height={80}
+				/>
 				<p>
 					<b>01.08.2025</b>
 				</p>
@@ -21,6 +28,12 @@ export default function Ablauf() {
 				<p>
 					<b>02.08.2025</b>
 				</p>
+				<Image
+					src={"/icons/fruehstueck.png"}
+					alt="Grafik von Frühstück"
+					width={80}
+					height={80}
+				/>
 				<p>
 					<b>08:30-10:30 Uhr - Frühstück</b>
 				</p>
@@ -29,6 +42,12 @@ export default function Ablauf() {
 				</p>
 				<br />
 
+				<Image
+					src={"/icons/freie-trauung.png"}
+					alt="Grafik eines Kürbisses"
+					width={80}
+					height={80}
+				/>
 				<p>
 					<b>14:00 Uhr – Freie Trauung </b>
 				</p>
@@ -38,6 +57,12 @@ export default function Ablauf() {
 				</p>
 				<br />
 
+				<Image
+					src={"/icons/sekt-empfang.png"}
+					alt="Grafik von anstossen mit Sektgläsern"
+					width={80}
+					height={80}
+				/>
 				<p>
 					<b>15:00 Uhr – Sektempfang & Snacks</b>
 				</p>
@@ -47,12 +72,24 @@ export default function Ablauf() {
 				</p>
 				<br />
 
+				<Image
+					src={"/icons/torte.png"}
+					alt="Grafik einer Hochzeitstorte"
+					width={80}
+					height={80}
+				/>
 				<p>
 					<b>16:00 Uhr – Kaffee & Tortenanschnitt</b>
 				</p>
 				<p>Essen geht immer, besonders Kuchen.</p>
 				<br />
 
+				<Image
+					src={"/icons/abendessen.png"}
+					alt="Grafik von Tischgedeck"
+					width={80}
+					height={80}
+				/>
 				<p>
 					<b>18:30 Uhr – Abendessen </b>
 				</p>
@@ -62,6 +99,12 @@ export default function Ablauf() {
 				</p>
 				<br />
 
+				<Image
+					src={"/icons/eroeffnungstanz.png"}
+					alt="Grafik eines Hochzeitspaares beim Tanzen"
+					width={80}
+					height={80}
+				/>
 				<p>
 					<b>21:00 Uhr – Eröffnungstanz & Party</b>
 				</p>
@@ -71,6 +114,12 @@ export default function Ablauf() {
 				</p>
 				<br />
 
+				<Image
+					src={"/icons/verabschiedung.png"}
+					alt="Grafik eines Croissants und Kaffee"
+					width={80}
+					height={80}
+				/>
 				<p>
 					<b>03.08.2025</b>
 				</p>
