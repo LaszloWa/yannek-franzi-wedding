@@ -34,14 +34,19 @@ export default function Rsvp() {
 							<b>Name</b>
 						</label>
 						<br />
-						<input type="text" id="name" name="name" />
+						<input type="text" id="name" name="name" required />
 					</div>
 					<div className={styles.formSection}>
 						<label htmlFor="anreiseTag">
 							<b>Anreisetag</b>
 						</label>
 						<br />
-						<select name="anreiseTag" id="anreiseTag" className={styles.button}>
+						<select
+							name="anreiseTag"
+							id="anreiseTag"
+							className={styles.button}
+							required
+						>
 							<option value="">Wãhle deinen Anreisetag</option>
 							<option value="Freitag">Freitag</option>
 							<option value="Samstag">Samstag</option>
@@ -58,6 +63,7 @@ export default function Rsvp() {
 								id="zweiNaechte"
 								name="hotel"
 								value="zweiNaechte"
+								required
 							/>
 							<label htmlFor="zweiNaechte">
 								Ja, ich/wir übernachten von Freitag bis Sonntag.
