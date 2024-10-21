@@ -7,6 +7,7 @@
 	);
 	min-height: 100vh;
 	min-width: 100vw;
+	position: relative;
 
 	@media (min-width: 585px) {
 		background: rgb(219, 91, 169);
@@ -18,12 +19,32 @@
 	}
 }
 
+.description {
+	color: white;
+	position: absolute;
+	z-index: 10;
+	font-weight: 200;
+	top: 68%;
+	padding: 0 20px;
+	text-align: center;
+
+	@media (min-width: 550px) {
+		left: 30%;
+		top: 75%;
+		transform: translateX(-50%);
+		max-width: 800px;
+		font-size: 30px;
+	}
+}
+
 .image {
 	background-image: url(./assets/landing-page-mobile.png);
 	min-height: 100vh;
 	min-width: 100vw;
 	background-repeat: no-repeat;
 	background-size: contain;
+	position: absolute;
+	top: 0;
 
 	@media (min-width: 585px) {
 		background-size: contain;
