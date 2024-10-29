@@ -2,7 +2,32 @@
 	margin-bottom: 20px;
 }
 
+.title {
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	align-items: center;
+}
+
 .collapse {
 	padding: 20px;
 	background-color: #ffd59d;
+}
+
+/* Chevron styles */
+.chevron {
+	display: inline-block;
+	width: 12px; /* Increased from 10px */
+	height: 12px; /* Increased from 10px */
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	transform: rotate(45deg);
+	margin-right: 8px;
+	transition: transform 0.2s ease;
+	box-sizing: content-box; /* Ensure padding and border are not included in width/height */
+}
+
+.chevronOpen {
+	transform: rotate(225deg);
 }

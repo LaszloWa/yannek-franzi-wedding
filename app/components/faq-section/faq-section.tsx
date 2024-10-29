@@ -17,8 +17,11 @@ const FaqSection: React.FC<FaqSectionProps> = ({ title, children }) => {
 
 	return (
 		<div className={styles.faqSection}>
-			<div onClick={toggleCollapse} style={{ cursor: "pointer" }}>
+			<div onClick={toggleCollapse} className={styles.title}>
 				<i>{title}</i>
+				<div
+					className={`${styles.chevron} ${isOpen ? styles.chevronOpen : ""}`}
+				></div>
 			</div>
 			<Collapse isOpen={isOpen} duration={5} className={styles.collapse}>
 				{children}
