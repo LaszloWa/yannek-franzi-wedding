@@ -5,10 +5,10 @@ export default function Home() {
 		<main className={styles.main}>
 			<div className={styles.description}>
 				Willkommen auf unserer Hochzeitshomepage.
-				<span className={styles.bottom}>
-					Hier findet ihr alle wichtigen Infos. Wir freuen uns sehr, unser
-					Hochzeitswochenende mit euch zu feiern!
-				</span>
+				<br />
+				<br />
+				Hier findet ihr alle wichtigen Infos. Wir freuen uns sehr, unser
+				Hochzeitswochenende mit euch zu feiern!
 			</div>
 			<div className={styles.image}></div>
 		</main>
