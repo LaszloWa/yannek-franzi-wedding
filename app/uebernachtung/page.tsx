@@ -35,12 +35,38 @@ export default function Uebernachtung() {
 
 				<h2>Schloss Hertefeld</h2>
 				<p>
-					Die Location verfügt über ein tolles eigenes Hotel, welches{" "}
-					<b>direkt am Schloss</b> und am angrenzenden Tierpark liegt. Preislich
-					liegen die Zimmer{" "}
-					<b>pro Nacht bei ca. 50€ pro Person inkl. Frühstück.</b> Auch Familien
-					oder Gruppen von Freunden finden hier Zimmer mit{" "}
-					<b>bis zu 5 Personen</b>.
+					Wenn ihr nach unserer Hochzeitsparty nicht mehr nach Hause fahren
+					möchtet, übernachtet gern mit uns auf Schloss Hertefeld. Bis zum 02.
+					Dezember 2024 sind im Hertefeldhof (100 m von der Location) 18 Zimmer
+					in verschiedenen Kategorien (BASIC, CLASSIC und COMFORT) für euch
+					geblockt. Schaut euch am besten mal auf der Website um:
+					<br />
+					<a href="www.hertefeld.de/suiten-und-zimmer">
+						www.hertefeld.de/suiten-und-zimmer
+					</a>
+				</p>
+				<br />
+				<p>
+					Wenn ihr ein Hotelzimmer buchen möchtet, schreibt bitte eine Mail an{" "}
+					<a href="mailto:post@hertefeld.de">post@hertefeld.de</a> mit folgenden
+					Infos:
+				</p>
+				<br />
+				<p>
+					- Name
+					<br />
+					- Anschrift
+					<br />
+					- Telefonnummer
+					<br />
+					- Namen der Gäste im Zimmer
+					<br />
+					- Alter der Kinder
+					<br />
+					- Wunschzimmer oder -kategorie
+					<br />
+					- mit oder ohne Frühstück
+					<br />- die Info, dass ihr unsere Gäste seid
 				</p>
 				<br />
 				<a href="https://www.hertefeld.de/hotelzimmer/" className={styles.link}>
