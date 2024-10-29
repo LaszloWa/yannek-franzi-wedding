@@ -1,4 +1,5 @@
-import CollapsibleCarousel from "../components/collapsible-carousel/collapsible-carousel";
+import Carousel from "../components/carousel/carousel";
+
 import styles from "./uebernachtung.module.css";
 
 const photos = {
@@ -32,11 +33,7 @@ export default function Uebernachtung() {
 				</p>
 				<br />
 
-				<p>
-					<a href="https://www.hertefeld.de/hotelzimmer/">
-						https://www.hertefeld.de/hotelzimmer/
-					</a>
-				</p>
+				<h2>Schloss Hertefeld</h2>
 				<p>
 					Die Location verfügt über ein tolles eigenes Hotel, welches{" "}
 					<b>direkt am Schloss</b> und am angrenzenden Tierpark liegt. Preislich
@@ -46,14 +43,15 @@ export default function Uebernachtung() {
 					<b>bis zu 5 Personen</b>.
 				</p>
 				<br />
-				<CollapsibleCarousel photos={photos["hertefelderHof"]} />
+				<a href="https://www.hertefeld.de/hotelzimmer/" className={styles.link}>
+					https://www.hertefeld.de/hotelzimmer/
+				</a>
+				<br />
+				<br />
+				<Carousel photos={photos["hertefelderHof"]} />
 				<br />
 
-				<p>
-					<a href="https://schloss-wissen.de/hotel/">
-						https://schloss-wissen.de/hotel/
-					</a>
-				</p>
+				<h2>Schloss Wissen</h2>
 				<p>
 					<b>3 km</b> von der Location entfernt liegt das Hotel im Schloss
 					Wissen. Preislich liegen die Zimmer{" "}
@@ -61,14 +59,15 @@ export default function Uebernachtung() {
 					bietet Zimmer und Gästehäuser für <b>bis zu 8 Personen.</b>
 				</p>
 				<br />
-				<CollapsibleCarousel photos={photos["schloss-wissen"]} />
+				<a href="https://schloss-wissen.de/hotel/" className={styles.link}>
+					https://schloss-wissen.de/hotel/
+				</a>
+				<br />
+				<br />
+				<Carousel photos={photos["schloss-wissen"]} />
 				<br />
 
-				<p>
-					<a href="https://www.jagerhofweeze.com/">
-						https://www.jagerhofweeze.com/
-					</a>
-				</p>
+				<h2>Jägerhof</h2>
 				<p>
 					Das Hotel Jägerhof liegt <b>1,2 km</b> von Schloss Hertefeld entfernt.
 					Die Zimmer sind etwas günstiger, mit knapp{" "}
@@ -76,10 +75,15 @@ export default function Uebernachtung() {
 					<b>Einzelzimmer</b> buchbar sowie Zimmer mit bis zu 4 Personen.
 				</p>
 				<br />
-				<CollapsibleCarousel photos={photos["jaegerhof"]} />
+				<a href="https://www.jagerhofweeze.com/" className={styles.link}>
+					https://www.jagerhofweeze.com/
+				</a>
+				<br />
+				<br />
+				<Carousel photos={photos["jaegerhof"]} />
 				<br />
 
-				<p>Schlafen im Van</p>
+				<h2>Schlafen im Van</h2>
 				<p>
 					Falls ihr mit einem Van anreist, könnt ihr diesen am Parkplatz vom
 					Schloss parken und dort übernachten. Das Frühstück für externe Gäste
@@ -88,7 +92,11 @@ export default function Uebernachtung() {
 					ihr dies umgehen wollt, ist direkt am Tierpark ein
 					Reisemobilstellplatz mit 5€ Übernachtungsgebühr
 					<br />
-					<a href="https://www.weeze.de/de/inhalt/reisemobile/">
+					<br />
+					<a
+						href="https://www.weeze.de/de/inhalt/reisemobile/"
+						className={styles.link}
+					>
 						https://www.weeze.de/de/inhalt/reisemobile/
 					</a>
 					.
