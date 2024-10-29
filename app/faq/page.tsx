@@ -83,7 +83,7 @@ export default function FAQ() {
 					<p>
 						Für den Freitag haben wir uns passend zum lockeren Abend für einen
 						Foodtruck entschieden, der uns deftiges Essen zaubern wird. Am
-						Samstag gibt Fingerfood zum Sektempfang, ein leckeres Sharing
+						Samstag gibt es Fingerfood zum Sektempfang, ein leckeres Sharing
 						Dinner, bei dem ihr euch ganz einfach rauspicken könnt, was ihr mögt
 						sowie mehrere Desserts. Alle Gerichte werden vegetarisch und
 						großteils glutenfrei zubereitet sein.
