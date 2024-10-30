@@ -12,5 +12,19 @@
 
 .body {
 	max-width: 1000px;
-	margin: 0 auto;
+	margin: 20px auto;
+}
+
+.dateHeading {
+	font-size: 20px;
+}
+
+.section {
+	border-bottom: 1px dashed #db5ba9;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+.section:last-child {
+	border-bottom: none;
 }
