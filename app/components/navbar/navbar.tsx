@@ -1,6 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
+import { usePathname } from "next/navigation";
+
 import styles from "./navbar.module.css";
 
 const Navbar: React.FC = () => {
@@ -10,17 +12,26 @@ const Navbar: React.FC = () => {
 		setIsOpen(!isOpen);
 	};
 
+	const pathname = usePathname();
+	const isLandingPage = pathname === "/";
+
 	return (
 		<>
 			<div className={styles.hamburger} onClick={toggleMenu}>
 				<div
-					className={`${styles.line} ${isOpen ? styles.line1Open : ""}`}
+					className={`${styles.line} ${isOpen ? styles.line1Open : ""} ${
+						isLandingPage ? styles.lightLine : ""
+					}`}
 				></div>
 				<div
-					className={`${styles.line} ${isOpen ? styles.line2Open : ""}`}
+					className={`${styles.line} ${isOpen ? styles.line2Open : ""} ${
+						isLandingPage ? styles.lightLine : ""
+					}`}
 				></div>
 				<div
-					className={`${styles.line} ${isOpen ? styles.line3Open : ""}`}
+					className={`${styles.line} ${isOpen ? styles.line3Open : ""} ${
+						isLandingPage ? styles.lightLine : ""
+					}`}
 				></div>
 			</div>
 

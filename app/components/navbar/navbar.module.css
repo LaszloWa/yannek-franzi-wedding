@@ -18,6 +18,12 @@
 	transition: all 0.3s ease;
 }
 
+.lightLine {
+	@media (max-width: 400px) {
+		background-color: #ffc87f;
+	}
+}
+
 .line1Open {
 	transform: translateY(11px) rotate(45deg);
 	background-color: #ffc87f;
