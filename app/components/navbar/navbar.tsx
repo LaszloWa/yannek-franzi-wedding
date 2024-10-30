@@ -55,6 +55,9 @@ const Navbar: React.FC = () => {
 					<li>
 						<a href="/faq">Fragen & Antworten</a>
 					</li>
+					<li>
+						<a href="/contacts">Trauzeug*innen</a>
+					</li>
 				</ul>
 			</div>
 		</>
