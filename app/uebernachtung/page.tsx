@@ -38,11 +38,16 @@ export default function Uebernachtung() {
 					Wenn ihr nach unserer Hochzeitsparty nicht mehr nach Hause fahren
 					möchtet, übernachtet gern mit uns auf Schloss Hertefeld. Bis zum 02.
 					Dezember 2024 sind im Hertefeldhof (100 m von der Location) 18 Zimmer
-					in verschiedenen Kategorien (BASIC, CLASSIC und COMFORT) für euch
-					geblockt. Schaut euch am besten mal auf der Website um:
+					in verschiedenen Kategorien (BASIC, CLASSIC und COMFORT){" "}
+					<b>für bis zu 5 personen</b> für euch geblockt. Pro Nacht liegen die
+					Zimmer bei ca <b>50€ pro Person inkl. Frühstück.</b> Schaut euch am
+					besten mal auf der Website um:
 					<br />
-					<a href="www.hertefeld.de/suiten-und-zimmer">
-						www.hertefeld.de/suiten-und-zimmer
+					<a
+						href="https://www.hertefeld.de/hotelzimmer/"
+						className={styles.link}
+					>
+						https://www.hertefeld.de/hotelzimmer/
 					</a>
 				</p>
 				<br />
@@ -113,10 +118,10 @@ export default function Uebernachtung() {
 				<p>
 					Falls ihr mit einem Van anreist, könnt ihr diesen am Parkplatz vom
 					Schloss parken und dort übernachten. Das Frühstück für externe Gäste
-					liegt bei 27€ pP. Das Schloss berechnet allerdings 30€ p. P. und
-					stellt euch dafür ein Bad mit Dusche, WC und Handtüchern bereit. Falls
-					ihr dies umgehen wollt, ist direkt am Tierpark ein
-					Reisemobilstellplatz mit 5€ Übernachtungsgebühr
+					liegt <b>bei 27€ pP</b>. Das Schloss berechnet allerdings{" "}
+					<b> 30€ p. P. </b> und stellt euch dafür ein Bad mit Dusche, WC und
+					Handtüchern bereit. Falls ihr dies umgehen wollt, ist direkt am
+					Tierpark ein Reisemobilstellplatz <b>mit 5€ Übernachtungsgebühr.</b>
 					<br />
 					<br />
 					<a
@@ -125,7 +130,6 @@ export default function Uebernachtung() {
 					>
 						https://www.weeze.de/de/inhalt/reisemobile/
 					</a>
-					.
 				</p>
 			</div>
 		</main>
