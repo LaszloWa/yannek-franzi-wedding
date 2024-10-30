@@ -52,6 +52,7 @@ export default function Rsvp() {
 							<option value="Samstag">Samstag</option>
 						</select>
 					</div>
+					<br />
 					<div className={styles.radio}>
 						<span>
 							<b>Übernachtung</b>
@@ -87,6 +88,8 @@ export default function Rsvp() {
 							<label htmlFor="Nein">Nein, ich/wir übernachten nicht.</label>
 						</div>
 					</div>
+					<br />
+
 					<div className={styles.formSection}>
 						<label htmlFor="kommentar">
 							<b>Sonstiges was wir wissen sollten?</b>
@@ -94,8 +97,9 @@ export default function Rsvp() {
 						<br />
 						<textarea id="kommentar" name="kommentar"></textarea>
 					</div>
+					<br />
 					<button type="submit" className={styles.button}>
-						Und Abfahrt!
+						Abschicken
 					</button>
 				</form>
 			)}
