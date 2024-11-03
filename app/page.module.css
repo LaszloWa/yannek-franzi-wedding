@@ -8,6 +8,7 @@
 	min-height: 100vh;
 	min-width: 100vw;
 	position: relative;
+	overflow: scroll;
 
 	@media (min-width: 585px) {
 		background: rgb(219, 91, 169);
@@ -25,17 +26,25 @@
 	z-index: 10;
 	font-weight: 300;
 	top: 75%;
-	padding: 0 20px;
+	padding: 0 20px 30px;
 	text-align: center;
 
 	@media (min-width: 550px) {
-		left: 35%;
+		left: 40%;
 		top: 75%;
 		transform: translateX(-50%);
-		max-width: 800px;
+		max-width: 600px;
 		font-size: 30px;
 		font-weight: 200;
 	}
+}
+
+.heading {
+	font-size: 40px;
+}
+
+.body {
+	font-size: 20px;
 }
 
 .image {

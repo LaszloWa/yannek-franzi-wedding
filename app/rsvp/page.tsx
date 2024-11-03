@@ -24,10 +24,15 @@ export default function Rsvp() {
 					)}
 					<input type="hidden" name="redirectUrl" value="/rsvp" />
 					<div className={styles.description}>
-						Bitte gebt uns eure Rückmeldung über das untenstehende Formular bis
-						zum 30.06.2025! Alternativ dürft ihr uns auch gerne telefonisch oder
-						per E-Mail kontaktieren. Es genügt, wenn ihr das Formular pro
-						Einladung ausfüllt.
+						<p>
+							Bitte gebt uns eure Rückmeldung über das untenstehende Formular
+							bis zum 30.06.2025!
+						</p>
+						<p>
+							Alternativ dürft ihr uns auch gerne telefonisch oder per E-Mail
+							kontaktieren.
+						</p>
+						<p>Es genügt, wenn ihr das Formular pro Einladung ausfüllt.</p>
 					</div>
 					<div className={styles.formSection}>
 						<label htmlFor="name">

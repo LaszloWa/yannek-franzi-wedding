@@ -4,11 +4,17 @@ export default function Home() {
 	return (
 		<main className={styles.main}>
 			<div className={styles.description}>
-				Willkommen auf unserer Hochzeitshomepage.
+				<h1 className={styles.heading}>
+					Willkommen auf unserer Hochzeitshomepage.
+				</h1>
 				<br />
 				<br />
-				Hier findet ihr alle wichtigen Infos. Wir freuen uns sehr, unser
-				Hochzeitswochenende mit euch zu feiern!
+				<div className={styles.body}>
+					<p>Hier findet ihr alle wichtigen Infos.</p>
+					<p>
+						Wir freuen uns sehr, unser Hochzeitswochenende mit euch zu feiern!
+					</p>
+				</div>
 			</div>
 			<div className={styles.image}></div>
 		</main>

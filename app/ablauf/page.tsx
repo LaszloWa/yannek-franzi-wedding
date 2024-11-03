@@ -23,8 +23,8 @@ export default function Ablauf() {
 					</p>
 					<p>
 						Wir starten in unser Wochenende mit einem lockeren gemeinsamen Abend
-						und stoßen mit allen die bereits anreisen möchten an. Wir freuen uns
-						über jede*n, der/die dabei ist!
+						und stoßen mit allen, die bereits anreisen möchten, an. Wir freuen
+						uns über jede*n, der/die dabei ist!
 					</p>
 				</div>
 
