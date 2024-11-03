@@ -7,8 +7,6 @@ export default function Home() {
 				<h1 className={styles.heading}>
 					Willkommen auf unserer Hochzeitshomepage.
 				</h1>
-				<br />
-				<br />
 				<div className={styles.body}>
 					<p>Hier findet ihr alle wichtigen Infos.</p>
 					<p>
