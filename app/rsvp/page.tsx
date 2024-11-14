@@ -55,6 +55,7 @@ export default function Rsvp() {
 							<option value="">Wãhle deinen Anreisetag</option>
 							<option value="Freitag">Freitag</option>
 							<option value="Samstag">Samstag</option>
+							<option value="Absage">Ich/wir kann/können leider nicht.</option>
 						</select>
 					</div>
 					<br />
