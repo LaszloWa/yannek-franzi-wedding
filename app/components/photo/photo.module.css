@@ -1,0 +1,9 @@
+.photo {
+	position: relative;
+	max-width: 300px;
+	padding-bottom: "150%";
+	aspect-ratio: 2 / 3;
+	margin: 20px auto;
+	height: fit-content;
+	overflow: hidden;
+}
