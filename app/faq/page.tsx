@@ -6,6 +6,18 @@ export default function FAQ() {
 		<main className={styles.main}>
 			<h1 className={styles.heading}>Fragen und Antworten</h1>
 			<div className={styles.body}>
+				<FaqSection title="Wieso drei Tage?">
+					<p>
+						Wir dürfen uns glücklich schätzen, viele Freunde und
+						Familienmitglieder aus ganz Deutschland oder dem Ausland zu haben.
+					</p>
+					<p>
+						Um mehr Zeit mit allen verbringen zu dürfen, haben wir uns dazu
+						entschieden, ein ganzes gemeinsames Wochenende zu planen und zu
+						feiern.
+					</p>
+				</FaqSection>
+
 				<FaqSection title="Müssen wir an allen Tagen teilnehmen?">
 					<p>
 						Natürlich freuen wir uns über jede*n, der bereits Freitag anreist.
@@ -91,18 +103,6 @@ export default function FAQ() {
 					<p>
 						Da wir ja auch eigentlich immer essen könnten, werdet ihr auch in
 						der Zeit von Frühstück bis Trauung nicht verhungern.
-					</p>
-				</FaqSection>
-
-				<FaqSection title="Wieso drei Tage?">
-					<p>
-						Wir dürfen uns glücklich schätzen, viele Freunde und
-						Familienmitglieder aus ganz Deutschland oder dem Ausland zu haben.
-					</p>
-					<p>
-						Um mehr Zeit mit allen verbringen zu dürfen, haben wir uns dazu
-						entschieden, ein ganzes gemeinsames Wochenende zu planen und zu
-						feiern.
 					</p>
 				</FaqSection>
 			</div>
