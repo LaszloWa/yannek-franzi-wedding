@@ -93,6 +93,18 @@ export default function FAQ() {
 						der Zeit von Frühstück bis Trauung nicht verhungern.
 					</p>
 				</FaqSection>
+
+				<FaqSection title="Wieso drei Tage?">
+					<p>
+						Wir dürfen uns glücklich schätzen, viele Freunde und
+						Familienmitglieder aus ganz Deutschland oder dem Ausland zu haben.
+					</p>
+					<p>
+						Um mehr Zeit mit allen verbringen zu dürfen, haben wir uns dazu
+						entschieden, ein ganzes gemeinsames Wochenende zu planen und zu
+						feiern.
+					</p>
+				</FaqSection>
 			</div>
 		</main>
 	);
