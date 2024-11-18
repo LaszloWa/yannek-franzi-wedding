@@ -40,7 +40,7 @@ export default function Uebernachtung() {
 					Dezember 2024 sind im Hertefeldhof (100 m von der Location) 18 Zimmer
 					in verschiedenen Kategorien (BASIC, CLASSIC und COMFORT){" "}
 					<b>für bis zu 5 personen</b> für euch geblockt. Pro Nacht liegen die
-					Zimmer bei ca <b>50€ pro Person inkl. Frühstück.</b> Schaut euch am
+					Zimmer bei ca <b>50€ pro Person exkl. Frühstück.</b> Schaut euch am
 					besten mal auf der Website um:
 					<br />
 					<a
