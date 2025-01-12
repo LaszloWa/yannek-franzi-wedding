@@ -33,7 +33,10 @@ export default function Uebernachtung() {
 				</p>
 				<br />
 
-				<h2>Schloss Hertefeld (Ausgebucht)</h2>
+				<h2>Schloss Hertefeld</h2>
+				<br />
+				<p>--- Ausgebucht ---</p>
+				<br />
 				<p>
 					Wenn ihr nach unserer Hochzeitsparty nicht mehr nach Hause fahren
 					möchtet, übernachtet gern mit uns auf Schloss Hertefeld. Bis zum 02.
