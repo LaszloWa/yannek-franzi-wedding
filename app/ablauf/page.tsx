@@ -11,6 +11,21 @@ export default function Ablauf() {
 						<b>01.08.2025</b>
 					</p>
 					<br />
+					<Image
+						src={"/icons/trauringe.png"}
+						alt="Grafik von Trauringen"
+						width={80}
+						height={80}
+					/>
+					<p>
+						<b>11:00 Uhr - Standesamtliche Trauung</b>
+					</p>
+					<p>
+						Im Haus Spiess in Erkelenz beginnen wir den ersten Schritt in
+						unserer Ehe. Es steht euch frei zum Zuschauen vorbei zu kommen und
+						mit uns nach der Trauung anzustoßen.
+					</p>
+					<br />
 
 					<Image
 						src={"/icons/get-together.png"}
@@ -23,8 +38,8 @@ export default function Ablauf() {
 					</p>
 					<p>
 						Wir starten in unser Wochenende mit einem lockeren gemeinsamen Abend
-						und stoßen mit allen, die bereits anreisen möchten, an. Wir freuen
-						uns über jede*n, der/die dabei ist!
+						im Schloss Hertefeld und stoßen mit allen, die bereits anreisen
+						möchten, an. Wir freuen uns über jede*n, der/die dabei ist!
 					</p>
 				</div>
 
@@ -55,7 +70,7 @@ export default function Ablauf() {
 						height={80}
 					/>
 					<p>
-						<b>14:00 Uhr – Freie Trauung </b>
+						<b>13:30 Uhr – Freie Trauung </b>
 					</p>
 					<p>
 						Wir freuen uns, euch spätestens jetzt bei unserer Hochzeit empfangen
