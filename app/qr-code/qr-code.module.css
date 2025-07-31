@@ -1,0 +1,17 @@
+.main {
+	text-align: center;
+	min-height: 100vh;
+	min-width: 100vw;
+	padding: 30px;
+	background-color: #ffc87f;
+}
+
+.heading {
+	margin-bottom: 30px;
+	hyphens: auto;
+}
+
+.body {
+	max-width: 1000px;
+	margin: 0 auto;
+}
