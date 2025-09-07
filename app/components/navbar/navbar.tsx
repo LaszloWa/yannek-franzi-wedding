@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
 						<a href="/contacts">Trauzeug*innen</a>
 					</li>
 					<li>
-						<a href="/qr-code">Fotos teilen</a>
+						<a href="/qr-code">Fotos</a>
 					</li>
 				</ul>
 			</div>

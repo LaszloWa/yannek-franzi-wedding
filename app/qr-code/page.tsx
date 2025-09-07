@@ -6,7 +6,19 @@ import styles from "./qr-code.module.css";
 export default function QrCode() {
 	return (
 		<main className={styles.main}>
-			<h1 className={styles.heading}>Fotos teilen</h1>
+			<h1 className={styles.heading}>Fotos</h1>
+			<h2>Fotos herunterladen</h2>
+			<br />
+			<a href="https://arrestomomentum.pic-time.com/KnuUHf4WxrfjK">
+				Hier findest du alle Fotos die wir mit euch teilen wollen
+			</a>
+
+			<br />
+
+			<br />
+			<br />
+
+			<h2>Fotos teilen</h2>
 			<div className={styles.body}>
 				<p>
 					Hier könnt ihr die Fotos, die ihr während der Hochzeit gemacht
